@@ -1,0 +1,17 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": true,
+    "isCreatingSolution": true,
+    "version": "1.15.0-beta.6",
+    "libraryName": "spfx-formcustomizerdemo",
+    "libraryId": "764b0473-f576-4de7-9ecb-037ed46d5b46",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "spfx-formcustomizerdemo",
+    "solutionShortDescription": "spfx-formcustomizerdemo description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "FormCustomizer"
+  }
+}

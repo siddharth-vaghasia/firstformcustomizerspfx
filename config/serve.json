@@ -1,0 +1,57 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://mypersorg.sharepoint.com/sites/Training/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "492db170-3caf-4138-aede-b48d04cf6d83",
+        "PageType": 8,
+        "RootFolder": "/sites/Training/Lists/FormCustomizerDemoList",
+        "ContentTypeID": "0x0100473DC3AA69DEE44EA7E837F83D80DFB200A715C1F3F81BC042BF936CEF4414F96D",
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "firstCustomizer_NewForm": {
+      "pageUrl": "https://mypersorg.sharepoint.com/sites/Training/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "492db170-3caf-4138-aede-b48d04cf6d83",
+        "PageType": 8,
+        "RootFolder": "/sites/Training/Lists/FormCustomizerDemoList",
+        "ContentTypeID": "0x0100473DC3AA69DEE44EA7E837F83D80DFB200A715C1F3F81BC042BF936CEF4414F96D",
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "firstCustomizer_EditForm": {
+      "pageUrl": "https://mypersorg.sharepoint.com/sites/Training/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "492db170-3caf-4138-aede-b48d04cf6d83",
+        "PageType": 6,
+        "RootFolder": "/sites/Training/Lists/FormCustomizerDemoList",
+        "ContentTypeID": "0x0100473DC3AA69DEE44EA7E837F83D80DFB200A715C1F3F81BC042BF936CEF4414F96D",
+        "ID": 1,
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    },
+    "firstCustomizer_ViewForm": {
+      "pageUrl": "https://mypersorg.sharepoint.com/sites/Training/_layouts/15/SPListForm.aspx",
+      "formCustomizer": {
+        "componentId": "492db170-3caf-4138-aede-b48d04cf6d83",
+        "PageType": 4,
+        "RootFolder": "/sites/Training/Lists/FormCustomizerDemoList",
+        "ContentTypeID": "0x0100473DC3AA69DEE44EA7E837F83D80DFB200A715C1F3F81BC042BF936CEF4414F96D",
+        "ID": 1,
+        "properties": {
+          "sampleText": "Value"
+        }
+      }
+    }
+  }
+}

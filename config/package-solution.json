@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-formcustomizerdemo-client-side-solution",
+    "id": "764b0473-f576-4de7-9ecb-037ed46d5b46",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.0-beta.6"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfx-formcustomizerdemo description"
+      },
+      "longDescription": {
+        "default": "spfx-formcustomizerdemo description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-formcustomizerdemo Feature",
+        "description": "The feature that activates elements of the spfx-formcustomizerdemo solution.",
+        "id": "f5b56f2f-3b15-4bbe-9d76-3f302779e37f",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-formcustomizerdemo.sppkg"
+  }
+}

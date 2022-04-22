@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "first-customizer-form-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/firstCustomizer/FirstCustomizerFormCustomizer.js",
+          "manifest": "./src/extensions/firstCustomizer/FirstCustomizerFormCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "FirstCustomizerFormCustomizerStrings": "lib/extensions/firstCustomizer/loc/{locale}.js"
+  }
+}
